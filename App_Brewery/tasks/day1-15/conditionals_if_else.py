@@ -68,3 +68,37 @@ if height >= 120:
         print("Please pay 12€")
 else:
     print("Sorry you hvae to gorw taller before you can ride.")
+    
+# Multiple if
+
+# if condition1:
+#   do A
+# if condition2:
+#   do B
+# if condition3:
+#   do C
+
+print("Welcome to the rollecoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
+
+if height >= 120:
+    print("You can ride the rollecoaster")
+    age = int(input("What is your age? "))
+    if age <= 12:
+        bill = 5
+        print("Child tickets 5€.")
+    elif age <= 18:
+        bill = 7
+        print("Youth tickets €7")
+    else:
+        bill = 12
+        print("Adult tickets 12€")
+    wants_photo = input("Do you wanna photo taken? Type y for Yes and n for No.: ").lower()
+    if wants_photo == "y":
+        # add 3€ to a bill
+        bill += 3
+    print(f"Your final bill is: {bill}€")
+        
+else:
+    print("Sorry you hvae to gorw taller before you can ride.")
