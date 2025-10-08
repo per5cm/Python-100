@@ -37,7 +37,7 @@ direction = input("Type 'left' or 'right': \n").lower()
 if direction == "right":
     print("Fall into a hole. Game Over")
 elif direction == "left":
-    print("You've come to a lake. There is an island in the middle of the lake.")
+    print("You\'ve come to a lake. There is an island in the middle of the lake.")
     
     action = input("Type 'swim' or 'wait'?: \n").lower()
     if action == "swim":
@@ -55,3 +55,9 @@ elif direction == "left":
         else:
             print("Game Over.")
 
+choice1 = input("\nYou're at a cross road. Where do you want to go? Type 'left' or 'right': \n").lower()
+
+if choice1 == "left":
+    coice2 = input("You\'ve come to a lake. There is an island in the middle of the lake.Type 'swim' or 'wait'?: \n").lower()
+else:
+    print("Fall into a hole. Game Over")
