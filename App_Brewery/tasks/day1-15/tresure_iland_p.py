@@ -16,7 +16,7 @@ elif direction == "left":
     elif action == "wait":
         print("You arrive at the island unharmed. There is a house with 3 doors.")
         
-        color = input("One 'red', one 'yellow' and one 'blue'. Which colour do you choose?: ").lower()
+        color = input("One 'red', one 'yellow' and one 'blue'. Which colour do you choose?: \n").lower()
         if color == "red":
             print("Burned by fire. Game Over.")
         elif color == "blue":
