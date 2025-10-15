@@ -8,6 +8,14 @@ for number in student_scores:
 
 print(max_number)
 
+# an other version
+
+max_score = 0
+for score in student_scores:
+    if score > max_score:
+        max_score = score
+
+print(max_score)
 # total sum
 
 sum_numbers = 0
