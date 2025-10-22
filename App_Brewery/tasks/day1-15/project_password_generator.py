@@ -30,3 +30,40 @@ random.shuffle(password_list)
 password = ''.join(password_list)
 print(f"Your random password to use is: {password}")
 print(f"Total characters used: {len(password_list)}")
+
+# # easy level.
+# password = ""
+
+# for char in range(0, nr_letters):
+#     password += random.choice(letters)
+
+# for char in range(0, nr_symbols):
+#     password += random.choice(symbols)
+
+# for char in range(0, nr_numbers):
+#     password += random.choice(numbers)
+
+# print(password)
+
+# # hard level
+
+# password = []
+
+# for char in range(0, nr_letters):
+#     password += random.choice(letters)
+
+# for char in range(0, nr_symbols):
+#     password += random.choice(symbols)
+
+# for char in range(0, nr_numbers):
+#     password += random.choice(numbers)
+
+# print(password)
+# random.shuffle(password)
+# print(password)
+
+# result = ""
+# for char in password:
+#     result += char
+
+# print(f"Your password: {result}")
