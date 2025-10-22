@@ -1,13 +1,18 @@
 import random
-from project_password_lists import letters
-from project_password_lists import numbers
-from project_password_lists import symbols
+from project_password_lists import letters, symbols, numbers
 
 print("Welcome to the PyPassword Generator!")
 
-nr_letters = int(input("How many letters would you like in your password?: \n"))
-nr_symbols = int(input("How many symbols would you like?: \n"))
-nr_numbers = int(input("How many numbers would you like?: \n"))
+while True:
+    nr_letters = int(input("How many letters would you like in your password?: \n"))
+    nr_symbols = int(input("How many symbols would you like in your password?: \n"))
+    nr_numbers = int(input("How many numbers would you like in your password?: \n"))
+    
+    total = nr_letters + nr_symbols + nr_numbers
+    if total < 8:
+        print("\nPassword must be at least 8 characters total. Try again!")
+    else:
+        break
 
 password_list = []
 
@@ -20,10 +25,8 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password_list.append(random.choice(numbers))
 
-password = ""
-for char in password_list:
-    password += char
-print("char", char)
+random.shuffle(password_list)
 
-pwd = ''.join(password_list)
-print(f"Your random password to use is: {pwd}")
+password = ''.join(password_list)
+print(f"Your random password to use is: {password}")
+print(f"Total characters used: {len(password_list)}")
