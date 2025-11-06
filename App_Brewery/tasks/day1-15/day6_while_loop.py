@@ -1,0 +1,20 @@
+# For
+# for item in list_of_items:
+#   # Do something to each item
+
+# for number in range(a, b):
+#   print(number)
+
+# While
+# while something_is_true:
+#   # Do something repeatedly
+
+# Reeborg's World
+def jump():
+    jump()
+
+number_of_hurdles = 6
+while number_of_hurdles > 0:
+    jump()
+    number_of_hurdles -= 1
+    print(number_of_hurdles)
