@@ -9,6 +9,11 @@
 # while something_is_true:
 #   # Do something repeatedly
 
+# Infinite loop
+
+# while 5 > 3:
+#     print("Hello World")
+
 # Reeborg's World
 def jump():
     jump()
