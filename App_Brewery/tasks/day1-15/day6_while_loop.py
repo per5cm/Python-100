@@ -70,3 +70,21 @@ while not at_goal():
         
 
 print("im here!")
+
+# Reborg's World - Maze Solver
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
+       
+print("im here!")
