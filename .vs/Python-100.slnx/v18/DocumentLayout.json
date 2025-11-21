@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day6_while_loop.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\day6_while_loop.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_generator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\project_password_generator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_fizz_buzz.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\project_fizz_buzz.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\project_password_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "day3_conditionals_if_else.py",
+              "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py",
+              "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py",
+              "ToolTip": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py",
+              "RelativeToolTip": "App_Brewery\\tasks\\day1-15\\day3_conditionals_if_else.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-20T20:11:14.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "day6_while_loop.py",
+              "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day6_while_loop.py",
+              "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\day6_while_loop.py",
+              "ToolTip": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day6_while_loop.py",
+              "RelativeToolTip": "App_Brewery\\tasks\\day1-15\\day6_while_loop.py",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-20T20:06:06.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "project_password_lists.py",
+              "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py",
+              "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\project_password_lists.py",
+              "ToolTip": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py",
+              "RelativeToolTip": "App_Brewery\\tasks\\day1-15\\project_password_lists.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-20T19:54:39.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "project_fizz_buzz.py",
               "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_fizz_buzz.py",
               "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\project_fizz_buzz.py",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "day4_random_modules.py",
               "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day4_random_modules.py",
               "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\day4_random_modules.py",
@@ -68,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "project_password_generator.py",
               "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_generator.py",
               "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\project_password_generator.py",

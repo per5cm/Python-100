@@ -11,16 +11,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\project_fizz_buzz.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\day4_random_modules.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Brewery\\tasks\\day1-15\\project_password_lists.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,31 +56,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.py",
-              "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\main.py",
-              "RelativeDocumentMoniker": "App_Brewery\\main.py",
-              "ToolTip": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\main.py",
-              "RelativeToolTip": "App_Brewery\\main.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-20T16:16:58.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "project_password_lists.py",
-              "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py",
-              "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\project_password_lists.py",
-              "ToolTip": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\project_password_lists.py",
-              "RelativeToolTip": "App_Brewery\\tasks\\day1-15\\project_password_lists.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-20T13:20:38.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "day4_random_modules.py",
               "DocumentMoniker": "C:\\Users\\Eric\\Desktop\\Projects\\Python-100\\App_Brewery\\tasks\\day1-15\\day4_random_modules.py",
               "RelativeDocumentMoniker": "App_Brewery\\tasks\\day1-15\\day4_random_modules.py",
@@ -96,7 +63,8 @@
               "RelativeToolTip": "App_Brewery\\tasks\\day1-15\\day4_random_modules.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-11-20T13:20:33.417Z"
+              "WhenOpened": "2025-11-20T13:20:33.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
