@@ -25,66 +25,65 @@ while number_of_hurdles > 0:
     number_of_hurdles -= 1
     print(number_of_hurdles)
 
-# Reborg's World 
-while not at_goal():
-    if front_is_clear():
-        move()
-        
-    elif wall_in_front():
-        turn_left()
-        move()
-        turn_right()
-        move()
-        turn_right()
-        move()
-        turn_left()
-        
+# Reborg's World
+
+# while not at_goal():
+#     if front_is_clear():
+#         move()
+
+#     elif wall_in_front():
+#         turn_left()
+#         move()
+#         turn_right()
+#         move()
+#         turn_right()
+#         move()
+#         turn_left()
 
 print("im here!")
 
 # Reborg's World
 
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
-    
-def jump():
-    turn_left()
-    
-    while wall_on_right():
-        move()        
-    turn_right()
-    move()
-    turn_right()
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
 
-    while front_is_clear():
-        move()
-    turn_left()
+# def jump():
+#     turn_left()
 
-while not at_goal():
-    if wall_in_front():
-        jump()
-    else:
-        move()
-        
+#     while wall_on_right():
+#         move()        
+#     turn_right()
+#     move()
+#     turn_right()
+
+#     while front_is_clear():
+#         move()
+#     turn_left()
+
+# while not at_goal():
+#     if wall_in_front():
+#         jump()
+#     else:
+#         move()
 
 print("im here!")
 
 # Reborg's World - Maze Solver
 
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
 
-while not at_goal():
-    if right_is_clear():
-        turn_right()
-        move()
-    elif front_is_clear():
-        move()
-    else:
-        turn_left()
-       
+# while not at_goal():
+#     if right_is_clear():
+#         turn_right()
+#         move()
+#     elif front_is_clear():
+#         move()
+#     else:
+#         turn_left()
+
 print("im here!")
