@@ -24,3 +24,10 @@ while True:
             print("correct")
         elif letter != guess:
             print("wrong!")
+
+    # option 2
+    # for letter in chosen_word:
+    #     if letter == guess:
+    #         print("right")
+    #     else:
+    #         print("Wrong")
