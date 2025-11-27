@@ -1,5 +1,5 @@
 import random
-from project_password_lists import letters, symbols, numbers
+from App_Brewery.Projects.password_generator.password_lists import letters, symbols, numbers
 
 print("Welcome to the PyPassword Generator!")
 

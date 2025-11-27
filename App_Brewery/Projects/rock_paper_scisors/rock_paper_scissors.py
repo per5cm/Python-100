@@ -1,5 +1,5 @@
 import random
-from project_rock_paper_scissors_ascii import ascii_list
+from App_Brewery.Projects.rock_paper_scisors.rock_paper_scissors_ascii import ascii_list
 
 player_choice = int(input("\nWhat do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: "))
 if player_choice >= 0 and player_choice <=2:
