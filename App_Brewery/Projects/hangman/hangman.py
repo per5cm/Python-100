@@ -10,7 +10,7 @@ chosen_word = random.choice(hangman_list)
 word_length = len(chosen_word)
 print(f"Your chosen word is: {chosen_word} it has {word_length} letters in it.\n")
 
-placeholder = ['_'] * word_length
+placeholder = ['_'] * word_length # pythonic way: placeholder = ["_" for _ in range word_length]
 print(" ".join(placeholder))
 
 # TODO 2 Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
