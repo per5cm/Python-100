@@ -38,3 +38,4 @@ while True:
         if letter == guess:
             placeholder[index] = guess
     print(" ".join(placeholder))
+
