@@ -45,24 +45,40 @@
     
 #     print(einkaufsliste)
 
-einkaufsliste = []
+# einkaufsliste = []
+
+# while True:
+#     aktion = input("Optionen die Liste zu bearbeiten: 1 = hinzufügen, 2 = entfernen, 3 = anzeigen, 4 = beenden\n: ").lower().strip()
+    
+#     if aktion == "hinzufügen" or aktion == "1":
+#         artikel = input("\nwelchen Artikel möchtest du on der liste hinzufügen?: ").lower().strip()
+#         einkaufsliste.append(artikel)
+#         print("\nArtikel wurde hinzugefügt.")
+#     elif aktion == "entfernen" or aktion == "2":
+#         artikel = input("welches artikel in der liste möchtest du entfernen?: ").lower().strip()
+#         if artikel in einkaufsliste:
+#             einkaufsliste.remove(artikel)
+#             print("\nartikel wurde entfernt.")
+#         else:
+#             print("Artikel nicht in der liste.")
+#     elif aktion == "anzeigen" or aktion == "3":
+#         print("\nDeine einkaufs liste: ", einkaufsliste)
+#     elif aktion == "beenden" or aktion == "4":
+#         print("\nprogramm wird beendet")
+#         break
+
+groccery_list = []
 
 while True:
-    aktion = input("\nmöchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?\n eintippen -> hinzufügen, oder 1 \n eintippen -> entfernen, oder 2\n eintippen -> anzeigen, oder 3\n eintippen -> beenden, oder 4\n : ").lower().strip()
+    option = input("Optionen die Liste zu bearbeiten: 1 = hinzufügen, 2 = entfernen, 3 = anzeigen, 4 = beenden\n: ").lower().strip()
     
-    if aktion == "hinzufügen" or aktion == "1":
-        artikel = input("\nwelchen Artikel möchtest du on der liste hinzufügen?: ").lower().strip()
-        einkaufsliste.append(artikel)
-        print("\nArtikel wurde hinzugefügt.")
-    elif aktion == "entfernen" or aktion == "2":
-        artikel = input("welches artikel in der liste möchtest du entfernen?: ").lower().strip()
-        if artikel in einkaufsliste:
-            einkaufsliste.remove(artikel)
-            print("\nartikel wurde entfernt.")
-        else:
-            print("Artikel nicht in der liste.")
-    elif aktion == "anzeigen" or aktion == "3":
-        print("\nDeine einkaufs liste: ", einkaufsliste)
-    elif aktion == "beenden" or aktion == "4":
-        print("\nprogramm wird beendet")
+    if option in ("1", "hinzufügen"): 
+        groccery_list.append(input("Artikel zum hinzufügen: ").lower().strip())
+        print("Artikel wurde hinzugefügt.")
+    elif option in ("2", "entfernen"):
+        groccery_list.remove(input("Artikel zum entfernen: ").lower().strip())
+        print("Artikel wurde entfernt.")
+    elif option in ("3", "anzeigen"):
+        print("Deine einkaufs liste: ", groccery_list)
+    elif option in ("4", "beenden"): 
         break
