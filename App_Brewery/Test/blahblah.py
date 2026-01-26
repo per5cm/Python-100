@@ -48,22 +48,21 @@
 einkaufsliste = []
 
 while True:
-    aktion = input("möchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?: hinzufügen / entfernen / anzeigen / beenden").lower().strip()
+    aktion = input("\nmöchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?\n eintippen -> hinzufügen, oder 1 \n eintippen -> entfernen, oder 2\n eintippen -> anzeigen, oder 3\n eintippen -> beenden, oder 4\n : ").lower().strip()
     
-    if aktion == "hinzufügen":
-        artikel = input("welchen Artikel möchtest du hinzufügen?: ").lower().strip()
+    if aktion == "hinzufügen" or aktion == "1":
+        artikel = input("\nwelchen Artikel möchtest du on der liste hinzufügen?: ").lower().strip()
         einkaufsliste.append(artikel)
-        print("Artikel wurde hinzugefügt.")
-    elif aktion == "entfernen":
-        artikel = input("welches artikel möchtest du entfernen?: ").lower().strip()
+        print("\nArtikel wurde hinzugefügt.")
+    elif aktion == "entfernen" or aktion == "2":
+        artikel = input("welches artikel in der liste möchtest du entfernen?: ").lower().strip()
         if artikel in einkaufsliste:
             einkaufsliste.remove(artikel)
-            print("artikel wurde entfernt.")
+            print("\nartikel wurde entfernt.")
         else:
             print("Artikel nicht in der liste.")
-    elif aktion == "anzeigen":
-        print("Deine einkaufs list: ", einkaufsliste)
-        #print(einkaufsliste)
-    elif aktion == "beenden":
-        print("einkaufliste wird beendet")
+    elif aktion == "anzeigen" or aktion == "3":
+        print("\nDeine einkaufs liste: ", einkaufsliste)
+    elif aktion == "beenden" or aktion == "4":
+        print("\nprogramm wird beendet")
         break
