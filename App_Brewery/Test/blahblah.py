@@ -45,25 +45,56 @@
     
 #     print(einkaufsliste)
 
+# einkaufsliste = []
+
+# while True:
+#     aktion = input("möchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?: hinzufügen / entfernen / anzeigen / beenden").lower().strip()
+    
+#     if aktion == "hinzufügen":
+#         artikel = input("welchen Artikel möchtest du hinzufügen?: ").lower().strip()
+#         einkaufsliste.append(artikel)
+#         print("Artikel wurde hinzugefügt.")
+#     elif aktion == "entfernen":
+#         artikel = input("welches artikel möchtest du entfernen?: ").lower().strip()
+#         if artikel in einkaufsliste:
+#             einkaufsliste.remove(artikel)
+#             print("artikel wurde entfernt.")
+#         else:
+#             print("Artikel nicht in der liste.")
+#     elif aktion == "anzeigen":
+#         print("Deine einkaufs list: ", einkaufsliste)
+#         #print(einkaufsliste)
+#     elif aktion == "beenden":
+#         print("einkaufliste wird beendet")
+#         break
+
 einkaufsliste = []
 
 while True:
-    aktion = input("möchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?: hinzufügen / entfernen / anzeigen / beenden").lower().strip()
-    
-    if aktion == "hinzufügen":
-        artikel = input("welchen Artikel möchtest du hinzufügen?: ").lower().strip()
+    aktion = input("Möchtest du Artikel hinzufügen(1) / entfernen(2) / anzeigen(3) oder das Programm beenden(4)")
+    # Hinzufügen
+    if aktion == "hinzufügen"or"1":
+        artikel = input("Welcher Artikel soll hinzugefügt werden?")
         einkaufsliste.append(artikel)
-        print("Artikel wurde hinzugefügt.")
-    elif aktion == "entfernen":
-        artikel = input("welches artikel möchtest du entfernen?: ").lower().strip()
+        print("Artikel hinzugefügt")
+
+    # Artikel entfernen
+    elif aktion == "entfernen"or"2":
+        artikel = input("Welchen Artikel möchtest du entfernen?")
         if artikel in einkaufsliste:
             einkaufsliste.remove(artikel)
-            print("artikel wurde entfernt.")
+            print("Artikel entfernt")
+
         else:
-            print("Artikel nicht in der liste.")
-    elif aktion == "anzeigen":
-        print("Deine einkaufs list: ", einkaufsliste)
-        #print(einkaufsliste)
-    elif aktion == "beenden":
-        print("einkaufliste wird beendet")
+            print("Artikel nicht gefunden")
+
+    #Artikel anzeigen
+
+    elif aktion == "anzeigen"or"3":
+        print("Deine aktuelle Einkaufsliste")
+        print(einkaufsliste)
+
+    #Programm beenden
+    elif aktion == "beenden"or"4":
+        print("Wird beendet")
         break
