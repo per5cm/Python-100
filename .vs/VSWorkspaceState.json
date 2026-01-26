@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\App_Brewery",
-    "\\App_Brewery\\tasks",
-    "\\App_Brewery\\tasks\\day1-15"
+    "\\App_Brewery\\tasks"
   ],
-  "SelectedNode": "\\App_Brewery\\tasks\\day1-15\\day6_while_loop.py",
   "PreviewInSolutionExplorer": false
 }
