@@ -4,7 +4,7 @@
 # else:
 #     print("Passt")
 
-# direction = input("Welche wärung möchten wechseln? e = EUR zu dollar, d = Dollar zu euro: ")
+# direction = input("Welche wärung möchten wechseln? e = EUR zu dollar, d = Dollar zu euro: ").lower()
 # total_sum = float(input("Wie viel geld möchten Sie wechseln?: "))
 
 # euro_to_dollar = 1.19
@@ -35,12 +35,35 @@
 # else:
 #     print("Rentnerpreis pro ticket 7.50€. Insgesamt Sie müssen:", tickets * 7.50,"€ zahlen")
 
+# einkaufsliste = []
+
+# entscheidung = "y"
+
+# while entscheidung == "y":
+#     einkaufsliste.append(input("was möchtest du deiner liste hinzufügen? "))
+#     entscheidung = input("motest du weitere Artikel hinzufügen? (y/n): ")
+    
+#     print(einkaufsliste)
+
 einkaufsliste = []
 
-entscheidung = "y"
-
-while entscheidung == "y":
-    einkaufsliste.append(input("was möchtest du deiner liste hinzufügen? "))
-    entscheidung = input("motest du weitere Artikel hinzufügen? (y/n): ")
+while True:
+    aktion = input("möchtest du einen Artikel hinzufügen, entfernen oder die liste anzeigen?: hinzufügen / entfernen / anzeigen / beenden").lower().strip()
     
-    print(einkaufsliste)
+    if aktion == "hinzufügen":
+        artikel = input("welchen Artikel möchtest du hinzufügen?: ").lower().strip()
+        einkaufsliste.append(artikel)
+        print("Artikel wurde hinzugefügt.")
+    elif aktion == "entfernen":
+        artikel = input("welches artikel möchtest du entfernen?: ").lower().strip()
+        if artikel in einkaufsliste:
+            einkaufsliste.remove(artikel)
+            print("artikel wurde entfernt.")
+        else:
+            print("Artikel nicht in der liste.")
+    elif aktion == "anzeigen":
+        print("Deine einkaufs list: ", einkaufsliste)
+        #print(einkaufsliste)
+    elif aktion == "beenden":
+        print("einkaufliste wird beendet")
+        break
