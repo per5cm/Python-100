@@ -18,19 +18,29 @@
 
 # print(f"Die wechsell summe ist: €{final_sum:.2f}")
 
-print("Willkommen zu Badenoase")
-print("Preise:")
-print("- Kinder bis 17 Jahre:     5,00 €")
-print("- Erwachsene 18 - 64 Jahre: 10,00 €")
-print("- Rentner ab 65 Jahre:     7,50 €\n")
+# print("Willkommen zu Badenoase")
+# print("Preise:")
+# print("- Kinder bis 17 Jahre:     5,00 €")
+# print("- Erwachsene 18 - 64 Jahre: 10,00 €")
+# print("- Rentner ab 65 Jahre:     7,50 €\n")
 
-age = int(input("Wie alt sind Sie?:  "))
-tickets = int(input("Wieviele Tickets?: "))
+# age = int(input("Wie alt sind Sie?:  "))
+# tickets = int(input("Wieviele Tickets?: "))
 
 
-if age < 18:
-    print("Kinderpreis pro ticket 5€. Insgesamt Sie müssen: ", tickets * 5,"€ zahlen")
-elif age < 65:
-    print("Erwachsenenpreis pro ticket 10€. Insgesamt Sie müssen: ", tickets * 10,"€ zahlen")
-else:
-    print("Rentnerpreis pro ticket 7.50€. Insgesamt Sie müssen:", tickets * 7.50,"€ zahlen")
+# if age < 18:
+#     print("Kinderpreis pro ticket 5€. Insgesamt Sie müssen: ", tickets * 5,"€ zahlen")
+# elif age < 65:
+#     print("Erwachsenenpreis pro ticket 10€. Insgesamt Sie müssen: ", tickets * 10,"€ zahlen")
+# else:
+#     print("Rentnerpreis pro ticket 7.50€. Insgesamt Sie müssen:", tickets * 7.50,"€ zahlen")
+
+einkaufsliste = []
+
+entscheidung = "y"
+
+while entscheidung == "y":
+    einkaufsliste.append(input("was möchtest du deiner liste hinzufügen? "))
+    entscheidung = input("motest du weitere Artikel hinzufügen? (y/n): ")
+    
+    print(einkaufsliste)
