@@ -25,7 +25,7 @@ while True:
 # TODO 3 Check if the letter the user guessed (guess) is one of the letters in the chosen_word. Print "Right" if it is "Wrong if its not."
 # TODO 3.1 Create a "display" that puts the guess letter in the right placeholder.
 
-    # option 1
+    # Step 1 - made a Loop to check each word if correct in the list.
     # for letter in chosen_word:
     #     if letter == guess:
     #         print("correct")
