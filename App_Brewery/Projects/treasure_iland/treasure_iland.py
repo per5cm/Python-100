@@ -31,7 +31,7 @@ elif direction == "left":
         else:
             print("Game Over.")
 
-## the other way.
+# the other way.
 # choice1 = input("\nYou're at a cross road. Where do you want to go? Type 'left' or 'right': \n").lower()
 
 # if choice1 == "left":
